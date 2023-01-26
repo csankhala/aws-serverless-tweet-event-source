@@ -80,7 +80,7 @@ Resources:
   TwitterTweetPoller:
     Type: AWS::Serverless::Function
     Properties:
-      Runtime: nodejs10.x
+      Runtime: nodejs18.x
       CodeUri: ./dist/tweetPoller.js
       Handler: tweetPoller.handler
       Tracing: Active
